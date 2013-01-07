@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="51">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="src" displayName="src" projectFiles="true">
+      <logicalFolder name="bmrm" displayName="bmrm" projectFiles="true">
+        <logicalFolder name="solver" displayName="solver" projectFiles="true">
+          <itemPath>src/bmrm/solver/daifletcherpgm.cpp</itemPath>
+          <itemPath>src/bmrm/solver/daifletcherpgm.hpp</itemPath>
+          <itemPath>src/bmrm/solver/dualinnersolver.cpp</itemPath>
+          <itemPath>src/bmrm/solver/dualinnersolver.hpp</itemPath>
+          <itemPath>src/bmrm/solver/innersolver.cpp</itemPath>
+          <itemPath>src/bmrm/solver/innersolver.hpp</itemPath>
+        </logicalFolder>
+        <itemPath>src/bmrm/bmrm.cpp</itemPath>
+        <itemPath>src/bmrm/bmrm.hpp</itemPath>
+        <itemPath>src/bmrm/lossfunction.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="cofi" displayName="cofi" projectFiles="true">
+        <logicalFolder name="eval" displayName="eval" projectFiles="true">
+          <itemPath>src/cofi/eval/binaryevaluator.cpp</itemPath>
+          <itemPath>src/cofi/eval/binaryevaluator.hpp</itemPath>
+          <itemPath>src/cofi/eval/cofievaluator.hpp</itemPath>
+          <itemPath>src/cofi/eval/csvfileevaluator.cpp</itemPath>
+          <itemPath>src/cofi/eval/csvfileevaluator.hpp</itemPath>
+          <itemPath>src/cofi/eval/dataindependentevaluator.hpp</itemPath>
+          <itemPath>src/cofi/eval/meansquarederror.cpp</itemPath>
+          <itemPath>src/cofi/eval/meansquarederror.hpp</itemPath>
+          <itemPath>src/cofi/eval/ndcgevaluator.cpp</itemPath>
+          <itemPath>src/cofi/eval/ndcgevaluator.hpp</itemPath>
+          <itemPath>src/cofi/eval/normevaluator.cpp</itemPath>
+          <itemPath>src/cofi/eval/normevaluator.hpp</itemPath>
+          <itemPath>src/cofi/eval/timeevaluator.cpp</itemPath>
+          <itemPath>src/cofi/eval/timeevaluator.hpp</itemPath>
+        </logicalFolder>
+        <itemPath>src/cofi/cfbmrm-train.cpp</itemPath>
+        <itemPath>src/cofi/cofibmrm.cpp</itemPath>
+        <itemPath>src/cofi/cofibmrm.hpp</itemPath>
+        <itemPath>src/cofi/movietrainer.cpp</itemPath>
+        <itemPath>src/cofi/movietrainer.hpp</itemPath>
+        <itemPath>src/cofi/problem.cpp</itemPath>
+        <itemPath>src/cofi/problem.hpp</itemPath>
+        <itemPath>src/cofi/solver.cpp</itemPath>
+        <itemPath>src/cofi/solver.hpp</itemPath>
+        <itemPath>src/cofi/useriterator.cpp</itemPath>
+        <itemPath>src/cofi/useriterator.hpp</itemPath>
+        <itemPath>src/cofi/usertrainer.cpp</itemPath>
+        <itemPath>src/cofi/usertrainer.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="core" displayName="core" projectFiles="true">
+        <itemPath>src/core/cofiexception.cpp</itemPath>
+        <itemPath>src/core/cofiexception.hpp</itemPath>
+        <itemPath>src/core/types.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="io" displayName="io" projectFiles="true">
+        <itemPath>src/io/io.hpp</itemPath>
+        <itemPath>src/io/svmlightreader.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="loss" displayName="loss" projectFiles="true">
+        <itemPath>src/loss/adaptiveregularizationlosswrapper.cpp</itemPath>
+        <itemPath>src/loss/adaptiveregularizationlosswrapper.hpp</itemPath>
+        <itemPath>src/loss/cofilossfunction.hpp</itemPath>
+        <itemPath>src/loss/graphkernellosswrapper.cpp</itemPath>
+        <itemPath>src/loss/graphkernellosswrapper.hpp</itemPath>
+        <itemPath>src/loss/lap.cpp</itemPath>
+        <itemPath>src/loss/lap.hpp</itemPath>
+        <itemPath>src/loss/leastsquaredomainmodel.cpp</itemPath>
+        <itemPath>src/loss/leastsquaredomainmodel.hpp</itemPath>
+        <itemPath>src/loss/lossfunctionfactory.cpp</itemPath>
+        <itemPath>src/loss/lossfunctionfactory.hpp</itemPath>
+        <itemPath>src/loss/moviephaselossfunction.cpp</itemPath>
+        <itemPath>src/loss/moviephaselossfunction.hpp</itemPath>
+        <itemPath>src/loss/ndcgdomainmodel.cpp</itemPath>
+        <itemPath>src/loss/ndcgdomainmodel.hpp</itemPath>
+        <itemPath>src/loss/preferencerankingdomainmodel.cpp</itemPath>
+        <itemPath>src/loss/preferencerankingdomainmodel.hpp</itemPath>
+        <itemPath>src/loss/userloss.cpp</itemPath>
+        <itemPath>src/loss/userloss.hpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="utils" displayName="utils" projectFiles="true">
+        <itemPath>src/utils/configexception.cpp</itemPath>
+        <itemPath>src/utils/configexception.hpp</itemPath>
+        <itemPath>src/utils/configuration.cpp</itemPath>
+        <itemPath>src/utils/configuration.hpp</itemPath>
+        <itemPath>src/utils/timer.cpp</itemPath>
+        <itemPath>src/utils/timer.hpp</itemPath>
+        <itemPath>src/utils/ublastools.cpp</itemPath>
+        <itemPath>src/utils/ublastools.hpp</itemPath>
+        <itemPath>src/utils/utils.hpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>CofiRank-Makefile.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>CofiRank-Makefile.mk</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <ccCompilerTool>
+          <includeDirectories>
+            <directoryPath>src</directoryPath>
+            <directoryPath>libs</directoryPath>
+          </includeDirectories>
+        </ccCompilerTool>
+        <linkerTool>
+          <output>dist/cofirank-debug</output>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="src/bmrm/bmrm.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/bmrm/bmrm.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/bmrm/lossfunction.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/bmrm/solver/daifletcherpgm.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/bmrm/solver/daifletcherpgm.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/bmrm/solver/dualinnersolver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/bmrm/solver/dualinnersolver.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/bmrm/solver/innersolver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/bmrm/solver/innersolver.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/cfbmrm-train.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/cofibmrm.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/cofibmrm.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/binaryevaluator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/binaryevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/cofievaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/csvfileevaluator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/csvfileevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/dataindependentevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/meansquarederror.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/meansquarederror.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/ndcgevaluator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/ndcgevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/normevaluator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/normevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/timeevaluator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/timeevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/movietrainer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/movietrainer.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/problem.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/problem.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/solver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/solver.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/useriterator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/useriterator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/usertrainer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/usertrainer.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/core/cofiexception.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/core/cofiexception.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/core/types.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/io/io.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/io/svmlightreader.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/adaptiveregularizationlosswrapper.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/adaptiveregularizationlosswrapper.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/cofilossfunction.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/graphkernellosswrapper.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/graphkernellosswrapper.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/lap.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/lap.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/leastsquaredomainmodel.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/leastsquaredomainmodel.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/lossfunctionfactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/lossfunctionfactory.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/moviephaselossfunction.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/moviephaselossfunction.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/ndcgdomainmodel.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/ndcgdomainmodel.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/preferencerankingdomainmodel.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/preferencerankingdomainmodel.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/userloss.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/userloss.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/utils/configexception.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/utils/configexception.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/utils/configuration.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/utils/configuration.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/utils/timer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/utils/timer.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/utils/ublastools.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/utils/ublastools.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/utils/utils.hpp">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+    <conf name="Deploy" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>4</platform>
+      </toolsSet>
+      <compileType>
+        <ccCompilerTool>
+          <developmentMode>6</developmentMode>
+          <includeDirectories>
+            <directoryPath>src</directoryPath>
+            <directoryPath>libs</directoryPath>
+          </includeDirectories>
+          <commandLine>-D NDEBUG</commandLine>
+        </ccCompilerTool>
+        <linkerTool>
+          <output>dist/cofirank-deploy</output>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="src/bmrm/bmrm.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/bmrm/bmrm.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/bmrm/lossfunction.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/bmrm/solver/daifletcherpgm.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/bmrm/solver/daifletcherpgm.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/bmrm/solver/dualinnersolver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/bmrm/solver/dualinnersolver.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/bmrm/solver/innersolver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/bmrm/solver/innersolver.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/cfbmrm-train.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/cofibmrm.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/cofibmrm.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/binaryevaluator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/binaryevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/cofievaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/csvfileevaluator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/csvfileevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/dataindependentevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/meansquarederror.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/meansquarederror.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/ndcgevaluator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/ndcgevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/normevaluator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/normevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/eval/timeevaluator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/eval/timeevaluator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/movietrainer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/movietrainer.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/problem.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/problem.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/solver.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/solver.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/useriterator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/useriterator.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/cofi/usertrainer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/cofi/usertrainer.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/core/cofiexception.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/core/cofiexception.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/core/types.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/io/io.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/io/svmlightreader.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/adaptiveregularizationlosswrapper.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/adaptiveregularizationlosswrapper.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/cofilossfunction.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/graphkernellosswrapper.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/graphkernellosswrapper.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/lap.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/lap.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/leastsquaredomainmodel.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/leastsquaredomainmodel.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/lossfunctionfactory.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/lossfunctionfactory.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/moviephaselossfunction.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/moviephaselossfunction.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/ndcgdomainmodel.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/ndcgdomainmodel.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/preferencerankingdomainmodel.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/preferencerankingdomainmodel.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/loss/userloss.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/loss/userloss.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/utils/configexception.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/utils/configexception.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/utils/configuration.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/utils/configuration.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/utils/timer.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/utils/timer.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/utils/ublastools.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="src/utils/ublastools.hpp">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="src/utils/utils.hpp">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
